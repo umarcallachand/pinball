@@ -1,0 +1,1 @@
+Use a local server and launch start.html. Insert at least one coin to be able to play.

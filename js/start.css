@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    max-width: 1366px;
+    background-image: url(../Assets/back.jpg);
+    color: aliceblue;
+    text-shadow: 4px 4px #000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: cursive;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+aside {
+    float: right;
+    font-weight: bold;
+    font-size: 60px;
+    font-style: italic;
+    font-family: monospace;
+    text-decoration: underline;
+    margin-right: 20%;
+}
+
+p {
+    font-size: 35px;
+    font-family: fantasy;
+}
+
+#all {
+    display: inline-block;
+    width: 70%;
+    margin-left: 23%;
+    /*margin-top: 10%;*/
+}
+
+div {
+    width: 25%;
+    font-size: 15px;
+}
+
+button {
+    margin: 3px;
+}
+
+#play {
+	align-self : center;
+    font-size: 80px;
+    font-family: fantasy;
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.coin {
+    width: 100%;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 125%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.85);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.instruction {
+	margin-left: 42%;
+    font-size: 30px;
+}
